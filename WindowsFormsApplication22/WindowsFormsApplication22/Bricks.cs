@@ -10,12 +10,6 @@ namespace WindowsFormsApplication22
     {
         int x;
         int y;
-        int x2;
-        int y2;
-        int dspeed;
-
-
-
 
         public void move(int Widht, int Height)
         {
