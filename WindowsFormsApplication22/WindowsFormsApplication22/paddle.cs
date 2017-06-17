@@ -15,6 +15,12 @@ namespace WindowsFormsApplication22
         int speed;
         int height;
         Brush color;
+        public Brush Color
+        {
+            get { return color; }
+            set { color = value; }
+        }
+
 
         public object ClientSize { get; private set; }
 
